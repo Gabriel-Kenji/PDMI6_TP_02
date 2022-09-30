@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDMI6_TP_02.EstiloPadrao">
+    <ContentPage.Content>
+        <StackLayout Margin="20,20,20,20">
+            <Label Text="SHIFT - Xamarin 
+                   Aplicativos Cross-Plataform"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title"
+                   TextColor="Green" />
+            <Entry 
+                Text="Estilo baseado no base style"
+                TextColor="#2ed1d2"
+                BackgroundColor="Aqua"
+                WidthRequest="10"
+                Margin="0, 20, 0, 0"/>
+            <Button 
+                Text="Clique aqui"
+                TextColor="white"
+                BackgroundColor="Blue"
+                HorizontalOptions="Center"
+                HeightRequest="50"
+                WidthRequest="150"
+                CornerRadius="5"
+                Margin="0, 20, 0, 0"/>
+            <Button Text="Sem Estilo" Margin="0, 20, 0, 0"/>
+            <Button Text="VOLTAR"
+                TextColor="White"
+                BackgroundColor="Blue"
+                CornerRadius="5"
+                WidthRequest="150"
+                HeightRequest="75" 
+                VerticalOptions="EndAndExpand"
+                Clicked="Voltar"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
